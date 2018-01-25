@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html {
+  background-color: #37474f;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul, li {
+  list-style: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: left;
+}
+
+ul, li :nth-child(2) {
+  padding-left: 30px;
+}
+
+.whatatool {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+}
+
+.info {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 70px 290px;
+}
+

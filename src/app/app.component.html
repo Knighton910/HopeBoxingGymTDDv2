@@ -1,20 +1,41 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<h2 style="color: white">Gym of Hope</h2>
+<button mat-raised-button color="warn" (click)="isLoggedIn = !isLoggedIn">{{ isLoggedIn ? 'log out' : 'log in' }} </button>
+
+<!-- <div *ngIf="isLoggedIn"> -->
+
+
+  <div style="text-align:center" class="wrapper">
+    <h1 style="color: lightcoral">
+      Welcome to {{ title }}
+    </h1>
+
+    <div class="gallery">
+      <img width="1000" src="../assets/fat.jpg">
+
+      <p class="firstP info">
+        Lorem ipsum dolor amet vaporware roof party tbh hexagon. Cronut taiyaki umami, brunch heirloom raw denim copper mug echo park hell of williamsburg schlitz truffaut listicle iceland. Gentrify taiyaki tacos, post-ironic bitters coloring book cornhole next level sartorial. Williamsburg taiyaki knausgaard mustache. Cronut wolf knausgaard DIY fingerstache pour-over. Meggings flannel vegan air plant ethical cold-pressed, plaid sartorial green juice mlkshk bespoke
+      </p>
+
+      <img width="1000" src="../assets/Detroit-Youth-Boxing.jpg">
+
+      <p class="info">
+        Occupy squid kombucha hot chicken asymmetrical man bun farm-to-table blue bottle jianbing food truck beard. Butcher la croix chambray typewriter ugh jean shorts distillery asymmetrical sriracha. Bushwick next level church-key cloud bread tumeric viral. Helvetica offal live-edge succulents pabst keffiyeh.
+
+        Quinoa hoodie listicle, try-hard neutra literally edison bulb tumblr trust fund flexitarian butcher flannel. Crucifix tacos enamel pin artisan pug heirloom hammock hoodie scenester squid blue bottle. Flannel wolf hexagon narwhal air plant humblebrag hoodie migas woke banjo hashtag edison bulb copper mug. Twee pour-over bushwick enamel pin readymade leggings 8-bit 3 wolf moon unicorn direct trade tilde cronut sartorial meggings.
+      </p>
+
+      <img src="../assets/Shot.png">
+
+      <p class="info">
+        Lorem ipsum dolor amet vaporware roof party tbh hexagon. Cronut taiyaki umami, brunch heirloom raw denim copper mug echo park hell of williamsburg schlitz truffaut listicle iceland. Gentrify taiyaki tacos, post-ironic bitters coloring book cornhole next level sartorial. Williamsburg taiyaki knausgaard mustache. Cronut wolf knausgaard DIY fingerstache pour-over. Meggings flannel vegan air plant ethical cold-pressed, plaid sartorial green juice mlkshk bespoke.
+
+        Occupy squid kombucha hot chicken asymmetrical man bun farm-to-table blue bottle jianbing food truck beard. Butcher la croix chambray typewriter ugh jean shorts distillery asymmetrical sriracha. Bushwick next level church-key cloud bread tumeric viral. Helvetica offal live-edge succulents pabst keffiyeh.
+      </p>
+    </div>
+  </div>
+<!-- </div> -->
+
+
+<button (click)="onClick()" mat-raised-button color="primary">Joy</button>
